@@ -1,0 +1,201 @@
+html{ 
+    box-sizing: border-box; 
+    scroll-behavior: smooth; 
+} 
+        
+        
+* { 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    box-sizing: border-box; 
+} 
+        
+img { 
+    vertical-align: top; 
+} 
+        
+body { 
+    height: 100%; 
+    line-height: 1; 
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 80px;
+    background-color: rgb(148, 134, 134);
+    padding: 30px;
+}
+
+li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(148, 134, 134);
+  width: 30%;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+.about-left {
+ height: 80px;
+ display: flex;
+ padding-top: 15px;
+ background-color: azure;
+ font-size: 20px;
+ font-weight: 700;
+}
+
+.skills-left {
+    height: 80px;
+    display: flex;
+    padding-top: 15px;
+    background-color: azure;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.projects-left {
+    height: 80px;
+    display: flex;
+    padding-top: 15px;
+    background-color: azure;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.code-left {
+    height: 80px;
+    display: flex;
+    padding-top: 15px;
+    background-color: azure;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.education-left {
+    height: 80px;
+    display: flex;
+    padding-top: 15px;
+    background-color: azure;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.languages-left {
+    height: 80px;
+    display: flex;
+    padding-top: 15px;
+    background-color: azure;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.right {
+    background-color: #b6adad;
+    width: 70%;
+    padding: 30px;
+}
+
+.photo {
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-bottom: 240px;
+    align-self: center;
+    width: 80%;
+}
+
+.name {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.profession {
+    font-weight: 200;
+    margin-left: 5px;
+    margin-bottom: 200px;
+}
+
+
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+    border-top: 2px solid;
+    margin-bottom: 60px;
+}
+
+.about {
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.plants-pic {
+    width: 45%;
+}
+
+.momentum-pic {
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+padding: 5px 35%;
+min-height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgb(148, 134, 134);
+}
+
+.git-pic {
+     height: 50px;
+     width: 50px;
+}
+
+.rs-pic {
+    height: 55px;
+}
+
+.number{
+    font-size: 24px;
+    font-weight: 700;
+}
