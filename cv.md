@@ -30,7 +30,7 @@ return n.split("").reverse().join("");
 ```
 
 ## Education:
-Graduated **Belarusian State Economic University** in 2022.
+**Belarusian State Economic University** 
 
 Specialization: **Economics and management in the tourism industry**
 
