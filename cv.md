@@ -39,4 +39,4 @@ Specialization: **Economics and management in the tourism industry**
 * Belarussian - **Native**
 * English - **B2**
 * Spanish - **A2**
-* Polish - **A2**
+
