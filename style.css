@@ -23,8 +23,7 @@ body {
 }
 
 main {
-    display: flex;
-    width: 100%;
+    background-color: hsl(0, 4%, 62%);
 }
 
 .navigation {
@@ -32,7 +31,7 @@ main {
     align-items: center;
     justify-content: flex-end;
     min-height: 80px;
-    background-color: rgb(148, 134, 134);
+    background-color: hsl(0, 4%, 62%);
     padding: 30px;
 }
 
@@ -48,74 +47,36 @@ a{
     font-weight: 500;
 }
 
-.left {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(148, 134, 134);
-  width: 30%;
-  align-items: flex-end;
-  padding-right: 10px;
-}
-
-.about-left {
- height: 80px;
- display: flex;
- padding-top: 15px;
- background-color: azure;
- font-size: 20px;
- font-weight: 700;
-}
-
-.skills-left {
-    height: 80px;
+.left{
     display: flex;
-    padding-top: 15px;
-    background-color: azure;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.projects-left {
-    height: 80px;
-    display: flex;
-    padding-top: 15px;
-    background-color: azure;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.code-left {
-    height: 80px;
-    display: flex;
-    padding-top: 15px;
-    background-color: azure;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.education-left {
-    height: 80px;
-    display: flex;
-    padding-top: 15px;
-    background-color: azure;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.languages-left {
-    height: 80px;
-    display: flex;
-    padding-top: 15px;
-    background-color: azure;
-    font-size: 20px;
-    font-weight: 700;
-}
-
+    flex-direction: column;
+    background-color: hsl(0, 4%, 62%);
+    width: 30%;
+    align-items: flex-end;
+    padding-right: 10px;
+  }
 
 .right {
     background-color: #b6adad;
     width: 70%;
     padding: 30px;
+}
+
+.right-two {
+    background-color: hsl(0, 4%, 62%);
+    width: 70%;
+    padding: 30px;
+}
+
+.right-one {
+    background-color: #b6adad;
+    width: 70%;
+    padding: 30px;
+}
+
+.general {
+    display: flex;
+    width: 100%;
 }
 
 .photo {
@@ -137,45 +98,38 @@ a{
     margin-bottom: 200px;
 }
 
-
-
 .contacts {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: 80px;
     border-top: 2px solid;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
-.about {
-    font-size: 20px;
-    background-color: antiquewhite;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.about, .skills, .projects, .code, .education, .languages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projects-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .plants-pic {
-    width: 45%;
+    width: 50%;
+    margin: 3% 25%;
+    border: 2px #8d7f7f solid;
 }
 
 .momentum-pic {
-    width: 45%;
+    width: 50%;
+    margin: 3% 25%;
+    border: 2px #8d7f7f solid;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
 padding: 5px 35%;
@@ -199,3 +153,4 @@ background-color: rgb(148, 134, 134);
     font-size: 24px;
     font-weight: 700;
 }
+
