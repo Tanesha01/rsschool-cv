@@ -12,25 +12,20 @@
 <header class="header">
 <nav class="nav">
 <ul class="navigation">
-<li><a href="#a">Contacts</a></li>
-<li><a href="#b">About me</a></li>
-<li><a href="#c">Skills</a></li>
-<li><a href="#d">Projects</a></li>
-<li><a href="#e">Code example</a></li>
-<li><a href="#f">Education</a></li>
-<li><a href="#g">Languages</a></li>
+<li><a href="#1">Contacts</a></li>
+<li><a href="#2">About me</a></li>
+<li><a href="#3">Skills</a></li>
+<li><a href="#4">Projects</a></li>
+<li><a href="#5">Code example</a></li>
+<li><a href="#6">Education</a></li>
+<li><a href="#7">Languages</a></li>
 </ul>
 </nav>
 </header>
 <main>
+<section class="general">
 <div class="left">
 <img class="photo" src="https://i.ibb.co/YRv9d4x/me.jpg" alt="My photo">
-<div class="about-left">About me</div>
-<div class="skills-left">Skills</div>
-<div class="projects-left">Projects</div>
-<div class="code-left">Code example</div>
-<div class="education-left">Education</div>
-<div class="languages-left">Languages</div>
 </div>
 <div class="right">
 <div>
@@ -39,7 +34,7 @@
 </div>
 <div class="contacts">
 <div class="contacts-item">
-<h3>E-mail</h3>
+<h3 id="1">E-mail</h3>
 <p>tanesha5511@gmail</p>
 </div>
 <div class="contacts-item">
@@ -51,9 +46,15 @@
 <p>Tatiana Buinitskaya (@tanesha01)</p>
 </div>
 </div>
-<p class="about">I'm 21 y.o. Now Im working in the hotel. Really want to try my strength in IT and develop technical skills.</p>
-<div class="skills">
-<p>Beginner in: </p>
+</div>
+</section>
+<section class="about">
+<h2 class="left" id="2">About me</h2>
+<p class="right-two">I'm 21 y.o. Now Im working in the hotel. Really want to try my strength in IT and develop technical skills.</p>
+</section>
+<section class="skills">
+<h2 class="left" id="3">Skills</h2>
+<div class="right-one">
 <ol>
 <li>HTML5, CSS3</li>
 <li>JavaScript Basics</li>
@@ -61,15 +62,21 @@
 <li>Figma</li>
 </ol>
 </div>
-<div class="projects">
+</section>
+<section class="projects">
+<h2 class="left" id="4">Projects</h2>
+<div class="projects-right right-two">
 <a class="plants" href="https://rolling-scopes-school.github.io/tanesha01-JSFEPRESCHOOL2022Q4/plants/" target="_blank"><img class="plants-pic" src="file:///C:/Users/Kramio/Desktop/%D0%A2%D0%B0%D0%BD%D1%8F/rs/plants.png" alt="plants"></a>
 <a href="https://rolling-scopes-school.github.io/tanesha01-JSFEPRESCHOOL2022Q4/plants/" target="_blank">Plants</a>
-<a class="plants" href="https://rolling-scopes-school.github.io/tanesha01-JSFEPRESCHOOL2022Q4/momentum/" target="_blank"><img class="momentum-pic" src="file:///C:/Users/Kramio/Desktop/%D0%A2%D0%B0%D0%BD%D1%8F/rs/momentum.png" alt="momentum"></a>
+<a class="momentum" href="https://rolling-scopes-school.github.io/tanesha01-JSFEPRESCHOOL2022Q4/momentum/" target="_blank"><img class="momentum-pic" src="file:///C:/Users/Kramio/Desktop/%D0%A2%D0%B0%D0%BD%D1%8F/rs/momentum.png" alt="momentum"></a>
 <a href="https://rolling-scopes-school.github.io/tanesha01-JSFEPRESCHOOL2022Q4/momentum/" target="_blank">Momentum</a>
 </div>
-<div class="code-example">
+</section>
+<section class="code">
+<h2 class="left" id="5">Code example</h2>
+<div class="right-one">
 <h3>Reverse Int</h3>
-<code class="code">
+<code class="code-ex">
 function reverse (n) { <br>
 if (n less than 0) { <br>
 n = n * (-1) + ""; <br>
@@ -80,21 +87,25 @@ return n.split("").reverse().join(""); <br>
 }; <br>
 </code>
 </div>
-<div class="education">
-<h3>University:</h3>
+</section>
+<section class="education">
+<h2 class="left" id="6">Education</h2>
+<div class="right-two">
 <p>Belarusian State Economic University '22</p>
 <p>(Economics and management in the tourism industry)</p>
 </div>
-<div class="languages">
+</section>
+<section class="languages">
+<h2 class="left" id="7">Languages</h2>
+<div class="right-one">
 <ol>
 <li>Russian - Native</li>
 <li>Belarussian - Native</li>
 <li>English - B2</li>
 <li>Spanish - A2</li>
-<li>Polish - A2</li>
 </ol>
 </div>
-</div>
+</section>
 </main>
 <footer class="footer">
 <a href="https://github.com/tanesha01" target="_blank"><img class="git-pic" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Git pic"></a>
